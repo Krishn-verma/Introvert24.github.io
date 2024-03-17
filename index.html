@@ -1,452 +1,1201 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-<title>Home - krishverma</title>
-<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-<link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-<link rel="stylesheet" href="assets/css/styles.min.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
-<body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="72">
-<nav class="navbar navbar-light navbar-expand-lg fixed-top bg-secondary text-uppercase" id="mainNav">
-<div class="container">
-<a class="navbar-brand" href="#page-top">krishnverma</a>
-<button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler text-white bg-primary navbar-toggler-right text-uppercase rounded" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-<i class="fa fa-bars"></i>
-</button>
-<div class="collapse navbar-collapse" id="navbarResponsive">
-<ul class="navbar-nav ms-auto">
-<li class="nav-item mx-0 mx-lg-1">
-<a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a>
-</li>
-<li class="nav-item mx-0 mx-lg-1">
-<a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a>
-</li>
-<li class="nav-item mx-0 mx-lg-1">
-<a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a>
-</li>
-</ul>
-</div>
-</div>
-</nav>
-<header class="text-center text-white bg-primary masthead">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <img src="\assets\img\pic.png" alt="Profile Photo" class="profile-photo img-fluid">
-            </div>
-            <div class="col-md-8">
-                <h1 class="display-4">Krishn Verma</h1>
-                <p class="lead">Android (Flutter) Developer | Video Editor (AE/PR) | IoT Expert</p>
-                <p class="description">I am a passionate developer with expertise in Android app development using Flutter. I also have experience in video editing with After Effects and Premiere Pro. Additionally, I specialize in projects involving IoT technologies, from Arduino to Raspberry Pi.</p>
-                <p class="contact-info">Contact me: <a href="mailto:krishhnverma@gmail.com" style="color: white;">krishhnverma@gmail.com</a></p>
-            </div>
-        </div>
-    </div>
-    
-      
-</header>
-<section id="portfolio" class="portfolio">
-    <div class="container">
-        <h2 class="text-uppercase text-center text-secondary">My Top Projects</h2>
-        <hr class="star-dark mb-5">
-        
-        <!-- Video Editing Section -->
-        <div class="portfolio-category">
-            <h4 style="font-size: 60px;">Video Projects</h4>
-            <div class="row">
-                <!-- Project 1 -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="portfolio-item text-center">
-                        <a class="d-block mx-auto" href="#portfolio-modal-5" data-bs-toggle="modal" data-bs-target="#portfolio-modal-5">
-                            <img class="img-fluid" src="assets/img/portfolio/maxresdefault.jpg" alt="Project 5" style="width: 200px; height: 200px; margin: auto;">
-                        </a>
-                        <small class="text-uppercase" style="font-size: 24px;">Anime edits</small>
-                    </div>
-                </div>
-                <!-- car edit -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="portfolio-item text-center">
-                        <a class="d-block mx-auto" href="#portfolio-modal-6" data-bs-toggle="modal" data-bs-target="#portfolio-modal-6">
-                            <img class="img-fluid" src="assets/img/portfolio/car.png" alt="Project 5" style="width: 200px; height: 200px; margin: auto;">
-                        </a>
-                        <small class="text-uppercase" style="font-size: 24px;">Car edits</small>
-                    </div>
-                </div>
-                <!-- Nature_Colorgraded_videos -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="portfolio-item text-center">
-                        <a class="d-block mx-auto" href="#portfolio-modal-7" data-bs-toggle="modal" data-bs-target="#portfolio-modal-7">
-                            <img class="img-fluid" src="assets/img/portfolio/nature.png" alt="Project 5" style="width: 200px; height: 200px; margin: auto;">
-                        </a>
-                        <small class="text-uppercase" style="font-size: 24px;">Nature_Colorgraded_videos</small>
-                    </div>
-                </div>
-                <!-- short -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="portfolio-item text-center">
-                        <a class="d-block mx-auto" href="#portfolio-modal-8" data-bs-toggle="modal" data-bs-target="#portfolio-modal-8">
-                            <img class="img-fluid" src="assets/img/portfolio/short.png" alt="Project 5" style="width: 400; height: 200px; margin: auto;">
-                        </a>
-                        <small class="text-uppercase" style="font-size: 24px;">Short Videos</small>
-                    </div>
-                </div>
-                <!-- Long videos -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="portfolio-item text-center">
-                        <a class="d-block mx-auto" href="#portfolio-modal-9" data-bs-toggle="modal" data-bs-target="#portfolio-modal-9">
-                            <img class="img-fluid" src="assets/img/portfolio/long.png" alt="Project 5" style="width: 400px; height: 200px; margin: auto;">
-                        </a>
-                        <small class="text-uppercase" style="font-size: 24px;">Long videos</small>
-                    </div>
-                </div>
-                
-            </div>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Richard hanrick</h1>
+
+          <p class="title">Web developer</p>
         </div>
 
-        <!-- Coding Section -->
-        <div class="portfolio-category">
-            <h4 style="font-size: 60px;">Apps designed By me</h4>
-            <div class="row">
-                <!-- Project 3 -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="portfolio-item">
-                        <a class="d-block mx-auto" href="#portfolio-modal-3" data-bs-toggle="modal" data-bs-target="#portfolio-modal-3">
-                            <img class="img-fluid" src="assets/img/portfolio/circus.png" alt="Project 3" style="width: 300px; height: 150px;">
-                        </a>
-                        <small class="text-uppercase" style="font-size: 24px;">Trading News App(soon)</small>
-                    </div>
-                </div>
-                <!-- Project 4 -->
-             
-                
-                <!-- Project 5 -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="portfolio-item">
-                        <a class="d-block mx-auto" href="#portfolio-modal-4" data-bs-toggle="modal" data-bs-target="#portfolio-modal-4">
-                            <img class="img-fluid" src="assets/img/portfolio/online-consultation-doctor-medicine-consultation-vector-illustration_689336-163.avif" alt="Project 4" style="width: 300px; height: 150px;">
-                        </a>
-                        <small class="text-uppercase" style="font-size: 24px;">Online Doctors App-Medway (soon)</sup></small>
-                    </div>
-                </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
             </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">richard@example.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+1 (213) 352-2795</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">June 23, 1982</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Sacramento, California, USA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media.
+            I enjoy
+            turning complex problems into simple, beautiful and intuitive designs.
+          </p>
+
+          <p>
+            My job is to build your website so that it is functional and user-friendly but at the same time attractive.
+            Moreover, I
+            add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
+            across your
+            message and identity in the most creative way. I created web design for many famous brand companies.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                <p class="service-item-text">
+                  Professional development of applications for iOS and Android.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+
+                <p class="service-item-text">
+                  I make high-quality photos of any category at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
         </div>
 
-        <!-- IoT Section -->
-        <div class="portfolio-category">
-            <h4 style="font-size: 60px;">IoT</h4>
-            <div class="row">
-                <!-- Project 6 -->
-                
-                <!-- Project 7 -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="portfolio-item">
-                        <a class="d-block mx-auto" href="#portfolio-modal-2" data-bs-toggle="modal" data-bs-target="#portfolio-modal-2">
-                            <img class="img-fluid" src="assets/img/portfolio/t725.png" alt="Project 2" style="width: 300px; height: 150px;">
-                        </a>
-                        <small class="text-uppercase" style="font-size: 24px;">Smart blind headband for blind people</small>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>               
 
-<section class="text-white bg-primary mb-0" id="about">
-<div class="container">
-<h2 class="text-uppercase text-center text-white">About</h2>
-<hr class="star-light mb-5">
-<div class="row">
-<div class="col-lg-4 ms-auto">
-<p class="lead">"Empower your digital journey with me by offering you&nbsp; opportunities in Android app development using Flutter. Dive into the world of video editing with After Effects and Premiere Pro. We specialize in guiding projects involving IoT technologies, from Arduino to Raspberry Pi. Join me for innovative, hands-on experiences."</p>
-</div>
-<div class="col-lg-4 me-auto">
-<p class="lead">As a passionate student, I thrive on exploring the ever-evolving tech world. Fueled by a genuine eagerness to learn and armed with skills and knowledge, my mission is to revolutionize. Join me on this journey as I harness my enthusiasm to bring about positive change through continuous exploration and innovation. --- Jai shree ram</p>
-</div>
-</div>
-<div class="text-center mt-4"></div>
-</div>
-</section>
-<section id="contact">
-<div class="container">
-<h2 class="text-uppercase text-center text-secondary mb-0">Contact Me</h2>
-<a class="btn btn-primary" role="button" href="https://www.instagram.com/ha_bhai_introvert_hun/" style="margin-right: 32px;margin-left: 322px;">Instgram<i class="fa fa-star"></i></a>
-<a class="btn btn-primary" role="button" href="https://www.youtube.com/channel/UCPDuEMjGEIe2VrSWSYmx8kA" style="margin-right: 32px;">Youtube<i class="fa fa-star"></i></a>
-<a class="btn btn-primary" role="button" href="https://www.fiverr.com/gamershope01?up_rollout=true" style="margin-right: 28px;">Fiverr<i class="fa fa-star"></i></a>
-<a class="btn btn-primary" role="button" href="https://www.upwork.com/freelancers/~0187f89df2c6aca287" style="margin-right: 24px;">Upwork<i class="fa fa-star"></i></a>
-<a class="btn btn-primary" role="button" href="https://www.reddit.com/u/Ok_Possibility_4682/s/Rzu1JgfdU1">Reddit<i class="fa fa-star"></i></a>
-<div class="btn-group" role="group" style="margin-top: 36px;padding-right: 0px;margin-right: -478px;margin-bottom: 56px;margin-left: 24px;"></div>
-<div class="btn-group" role="group"></div>
-<hr class="star-dark mb-5">
-<div class="row">
-<div class="col-lg-8 mx-auto">
-<form id="contactForm" name="sentMessage">
-<div id="success"></div>
-</form>
-</div>
-</div>
-</div>
-</section>
-<footer class="text-center footer">
-<div class="container">
-<div class="row">
-<div class="col-md-4 mb-5 mb-lg-0">
-<h4 class="text-uppercase mb-4">Location</h4>
-<p>INDIA</p>
-</div>
-<div class="col-md-4 mb-5 mb-lg-0">
-<h4 class="text-uppercase">Around the Web</h4>
-<ul class="list-inline">
-<li class="list-inline-item"></li>
-<li class="list-inline-item">
-<a class="btn btn-outline-light text-center btn-social rounded-circle" role="button" href="mailto:krishv594@gmail.com?subject=Subject%20of%20the%20Email&amp;body=Hello%20there,%0D%0A%0D%0AI%20would%20like%20to%20contact%20you%20about...&quot;">
-<i class="fa fa-google-plus fa-fw"></i>
-</a>
-</li>
-<li class="list-inline-item"></li>
-<li class="list-inline-item"></li>
-</ul>
-</div>
-</div>
-</div>
-</footer>
-<div class="text-center text-white copyright py-4">
-<div class="container">
-<small>Copyright ©&nbsp;krishverma 2023</small>
-</div>
-</div>
-<div class="d-lg-none scroll-to-top position-fixed rounded">
-<a class="text-center d-block rounded text-white" href="#page-top">
-<i class="fa fa-chevron-up"></i>
-</a>
-</div>
-<!-- hover area -->
-<!-- heartsync -->
-<div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-1">
-<div class="modal-dialog modal-lg" role="document">
-<div class="modal-content">
-<div class="modal-header">
-<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-</div>
-<div class="modal-body">
-<div class="container text-center">
-<div class="row">
-<div class="col-lg-12 col-xl-12 mx-auto">
-<h2 class="text-uppercase text-secondary mb-0"><span style="color: rgb(33, 37, 41);">&nbsp;HeartSync</span></h2>
-<hr class="star-dark mb-5">
-<img class="img-fluid mb-5" src="assets/img/portfolio/heartsync.png" style="width: 1200px; height: 350px;" >
-<p class="mb-5">Introducing "HeartSync," a revolutionary Flutter app designed for couples to elevate their connection. This innovative platform enables intimate 1:1 chats, complete with a dedicated photo memories section to cherish shared moments. Immerse yourselves in the Live Music Session for a synchronized musical experience, indulge in a cinematic journey through the Live Movie Section, and stay connected with the Live Location feature. "HeartSync" goes beyond conventional messaging apps, offering a holistic space for couples to create, share, and relive their unique bond. Elevate your relationship with real-time connection and shared experiences, all within the seamless and engaging interface of HeartSync.</p>
-<a class="btn btn-primary" role="button" href="https://github.com/introvert024/HeartSync">Show more</a>
-</div>
-</div>
-</div>
-</div>
-<div class="modal-footer pb-5"></div>
-</div>
-</div>
-</div>
-<!-- headband -->
-<div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-2">
-<div class="modal-dialog modal-lg" role="document">
-<div class="modal-content">
-<div class="modal-header">
-<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-</div>
-<div class="modal-body">
-<div class="container text-center">
-<div class="row">
-<div class="col-lg-8 mx-auto">
-<h2 class="text-uppercase text-secondary mb-0">Smart blind headband</h2>
-<hr class="star-dark mb-5">
-<img class="rounded img-fluid mb-5" src="assets/img/portfolio/WhatsApp%20Image%202023-11-10%20at%202.47.47%20PM.jpeg">
-<p class="mb-5"><br>The headband for blind people aims to provide an innovative, wearable solution that uses illumination to enhance their ability to navigate and interact with their surroundings, thereby increasing their independence and safety</p>
-<a class="btn btn-primary" role="button" href="https://github.com/introvert024/Smart-blind-headband">Show more</a>
-</div>
-</div>
-</div>
-</div>
-<div class="modal-footer pb-5"></div>
-</div>
-</div>
-</div>
-<!-- news app -->
-<div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-3">
-<div class="modal-dialog modal-lg" role="document">
-<div class="modal-content">
-<div class="modal-header">
-<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-</div>
-<div class="modal-body">
-<div class="container text-center">
-<div class="row">
-<div class="col-lg-8 mx-auto">
-<h2 class="text-uppercase text-secondary mb-0">Trading News App</h2>
-<hr class="star-dark mb-5">
-<img class="img-fluid mb-5" src="assets/img/portfolio/circus.png">
-<p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-</div>
-</div>
-</div>
-</div>
-<div class="modal-footer pb-5">
-    <a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" href="https://github.com/introvert024/Trading-news-app"><i class="fa fa-close"></i>&nbsp;View This App</a>
-</div>
-</div>
-</div>
-</div>
-<!-- Medway -->
-<div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-4">
-<div class="modal-dialog modal-lg" role="document">
-<div class="modal-content">
-<div class="modal-header">
-<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-</div>
-<div class="modal-body">
-<div class="container text-center">
-<div class="row">
-<div class="col-lg-8 mx-auto">
-<h2 class="text-uppercase text-secondary mb-0">Medway(EmergencyApp)</h2>
-<hr class="star-dark mb-5">
-<img class="img-fluid mb-5" src="assets/img/portfolio/online-consultation-doctor-medicine-consultation-vector-illustration_689336-163.avif">
-<p class="mb-5">Introducing Medway: Your go-to app for health and wellness. Easily book appointments with top doctors and holistic healers. Explore alternative approaches to wellness. Simple, secure, and tailored to you. Your journey to well-being starts here with Medway.</p>
-</div>
-</div>
-</div>
-</div>
-<div class="modal-footer pb-5">
-    <a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" href="https://github.com/introvert024/Medway"><i class="fa fa-close"></i>&nbsp;View This App</a>
-</div>
-</div>
-</div>
-</div>
-<!--  Anime edit-->
-<div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-5">
-<div class="modal-dialog modal-lg" role="document">
-<div class="modal-content">
-<div class="modal-header">
-<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-</div>
-<div class="modal-body">
-<div class="container text-center">
-<div class="row">
-<div class="col-lg-8 mx-auto">
-<h2 class="text-uppercase text-secondary mb-0">Anime Edit video</h2>
-<hr class="star-dark mb-5">
-<img class="img-fluid mb-5" src="assets/img/portfolio/maxresdefault.jpg">
-<p class="mb-5">I specialize in crafting Anime-style edit videos, meticulously weaving together captivating visuals with tailor-made soundtracks. Below, I present a glimpse of my artistry in motion.</p>
-</div>
-</div>
-</div>
-</div>
-<div class="modal-footer pb-5">
-    <a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" href="https://drive.google.com/drive/folders/1Qt0cV7IECeouHvcFONE8gr7kFlliqZUV?usp=sharing"><i class="fa fa-close"></i>&nbsp;View Projects</a>
-</div>
-</div>
-</div>
-</div>
-<!-- Car edit -->
-<div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-6">
-<div class="modal-dialog modal-lg" role="document">
-<div class="modal-content">
-<div class="modal-header">
-<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-</div>
-<div class="modal-body">
-<div class="container text-center">
-<div class="row">
-<div class="col-lg-8 mx-auto">
-<h2 class="text-uppercase text-secondary mb-0">Car edit</h2>
-<hr class="star-dark mb-5">
-<img class="img-fluid mb-5" src="assets/img/portfolio/car.png">
-<p class="mb-5">I excel in producing captivating card edit videos, skillfully blending striking visuals with custom-crafted soundscapes. Below, I offer a peek into my mastery of the craft.</p>
-</div>
-</div>
-</div>
-</div>
-<div class="modal-footer pb-5">
-    <a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" href="https://drive.google.com/drive/folders/1yhvII_OYvf6T4CC-myvPl5qF-P-eoyT_?usp=sharing"><i class="fa fa-close"></i>&nbsp;View Projects</a>
-</div>
-</div>
-</div>
-</div>
-<!-- nature edit -->
-<div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-7">
-    <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-    <div class="modal-header">
-    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University school of the arts</h4>
+
+              <span>2007 — 2008</span>
+
+              <p class="timeline-text">
+                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
+                quas molestias
+                exceptur.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">New york academy of art</h4>
+
+              <span>2006 — 2007</span>
+
+              <p class="timeline-text">
+                Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est
+                omnis..
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">High school of art and design</h4>
+
+              <span>2002 — 2004</span>
+
+              <p class="timeline-text">
+                Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur
+                magni dolores
+                eos.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Creative director</h4>
+
+              <span>2015 — Present</span>
+
+              <p class="timeline-text">
+                Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas
+                molestias
+                exceptur.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Art director</h4>
+
+              <span>2013 — 2015</span>
+
+              <p class="timeline-text">
+                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
+                quas molestias
+                exceptur.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web designer</h4>
+
+              <span>2010 — 2013</span>
+
+              <p class="timeline-text">
+                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
+                quas molestias
+                exceptur.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web design</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Graphic design</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Branding</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">WordPress</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Finance</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Orizon</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Fundo</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Brawlhalla</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DSM.</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MetaSpark</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Summary</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+
+                  <p class="blog-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+                  <p class="blog-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
     </div>
-    <div class="modal-body">
-    <div class="container text-center">
-    <div class="row">
-    <div class="col-lg-8 mx-auto">
-    <h2 class="text-uppercase text-secondary mb-0">Music and Nature_Colorgraded_videos</h2>
-    <hr class="star-dark mb-5">
-    <img class="img-fluid mb-5" src="assets/img/portfolio/nature.png">
-    <p class="mb-5">I'm adept at creating mesmerizing nature/music video edits, effortlessly blending serene visuals with harmonious melodies. Below, enjoy a glimpse of my soothing creations."</p>
-    </div>
-    </div>
-    </div>
-    </div>
-    <div class="modal-footer pb-5">
-        <a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" href="https://drive.google.com/drive/folders/1S919nfg266l9hke-Agsqr2TQvXN7INwF?usp=sharing"><i class="fa fa-close"></i>&nbsp;View Projects</a>
-    </div>
-    </div>
-    </div>
-    </div>
-<!-- short video -->
-<div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-8">
-    <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-    <div class="modal-header">
-    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-    </div>
-    <div class="modal-body">
-    <div class="container text-center">
-    <div class="row">
-    <div class="col-lg-8 mx-auto">
-    <h2 class="text-uppercase text-secondary mb-0">Short video (insta/yt)</h2>
-    <hr class="star-dark mb-5">
-    <img class="img-fluid mb-5" src="assets/img/portfolio/short.png">
-    <p class="mb-5">I specialize in crafting captivating short video edits, seamlessly blending concise yet impactful visuals with engaging soundtracks. Below, discover a taste of my dynamic creations.</p>
-    </div>
-    </div>
-    </div>
-    </div>
-    <div class="modal-footer pb-5">
-        <a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" href="https://drive.google.com/drive/folders/1YzTkFF6kkUAL9GIeoWck8vy0TNP0Qggo?usp=sharing"><i class="fa fa-close"></i>&nbsp;View Projects</a>
-    </div>
-    </div>
-    </div>
-    </div>
-<!-- long video -->
-<div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-9">
-    <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-    <div class="modal-header">
-    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-    </div>
-    <div class="modal-body">
-    <div class="container text-center">
-    <div class="row">
-    <div class="col-lg-8 mx-auto">
-    <h2 class="text-uppercase text-secondary mb-0">Long Video editing</h2>
-    <hr class="star-dark mb-5">
-    <img class="img-fluid mb-5" src="assets/img/portfolio/long.png">
-    <p class="mb-5">I excel in producing immersive long-form video edits, skillfully weaving together expansive visuals with carefully curated soundscapes. Below, delve into the depths of my cinematics</p>
-    </div>
-    </div>
-    </div>
-    </div>
-    <div class="modal-footer pb-5">
-    <a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" href="https://drive.google.com/drive/folders/1L41LQ_ydqgL5EyyBEkv8LLCMVsgx06MQ?usp=sharing"><i class="fa fa-close"></i>&nbsp;View Projects</a>
-    </div>
-    </div>
-    </div>
-    </div>
-<!--  -->
-<script src="assets/bootstrap/js/bootstrap.min.js"></script>
-<script src="assets/js/script.min.js"></script>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
 </body>
+
 </html>
