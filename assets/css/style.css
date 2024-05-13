@@ -1743,6 +1743,13 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .project-list { grid-template-columns: repeat(3, 1fr); }
+  
+  .rounded-video {
+    border-radius: 15px; /* Adjust the value to change the roundness */
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Optional: Add a shadow effect */
+}
+
 
 
 
