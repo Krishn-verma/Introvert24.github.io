@@ -1,18 +1,3 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
-
-/**
- * copyright 2022 codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
 
 :root {
 
@@ -310,11 +295,46 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding-block: 100px var(--section-padding);
+  padding: 100px var(--section-padding);
   min-height: 100vh;
-  display: grid;
-  place-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
 }
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto 20px; /* Center horizontally within .hero and add space below */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left; /* Align text content to the left */
+}
+
+
+.hero-content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.step {
+  background-color: #313131;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.step img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
 
 .hero-banner {
   width: 150px;
@@ -322,7 +342,7 @@ body {
   background-color: var(--independence);
   border-radius: var(--radius-10);
   margin-inline: auto;
-  margin-block-end: 30px;
+  margin-block-end: 30px; 
 }
 
 .hero-banner img { border-radius: inherit; }
@@ -330,6 +350,9 @@ body {
 .hero-content {
   text-align: center;
   color: var(--white);
+  place-items: center;
+  align-items: center;
+  text-align: center;
 }
 
 .hero-title {
@@ -360,225 +383,14 @@ body {
 
 
 
-/*-----------------------------------*\
-  #ABOUT
-\*-----------------------------------*/
-
-.abs-img,
-.abs-icon { display: none; }
-
-.about { padding-block-start: 120px; }
-
-.about-banner {
-  background-color: var(--independence);
-  border-radius: var(--radius-10);
-  margin-block-end: 30px;
-}
-
-.about-banner > .img-cover { border-radius: inherit; }
-
-.about :is(.section-title, .section-subtitle, .section-text) { text-align: left; }
-
-.about :is(.section-title, .section-text) { margin-block-end: 30px; }
-
-
-
-
-
-/*-----------------------------------*\
-  #PORTFOLIO
-\*-----------------------------------*/
-
-.portfolio .section-title { margin-block-end: 18px; }
-
-.portfolio .section-text { margin-block-end: 80px; }
-
-.portfolio-list {
-  display: grid;
-  gap: 60px;
-}
-
-.portfolio-card {
-  background-color: var(--independence);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  padding: 120px 20px;
-  border-radius: var(--radius-20);
-  font-family: var(--ff-barlow);
-  color: var(--white);
-  font-weight: var(--fw-600);
-  transition: var(--transition-2);
-}
-
-.portfolio-list > li:nth-child(even) .card-content { margin-inline-start: auto; }
-
-.portfolio-card .card-subtitle {
-  color: var(--orange-soda);
-  margin-block-end: 5px;
-}
-
-.portfolio-card .card-title {
-  max-width: 20ch;
-  margin-block-end: 20px;
-}
-
-.portfolio-card .btn-link {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  font-size: var(--fs-6);
-  text-transform: uppercase;
-}
-
-.portfolio-card .btn-link ion-icon {
-  color: var(--orange-soda);
-  font-size: 1.6rem;
-}
-
-
-
-
-
-/*-----------------------------------*\
-  #SKILLS
-\*-----------------------------------*/
-
-.skills .section-title { margin-block-end: 20px; }
-
-.skills .section-text { margin-block-end: 70px; }
-
-.skills-list {
-  display: grid;
-  gap: 25px;
-}
-
-.skills-item .wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-block-end: 10px;
-}
-
-.skills-title,
-.skills-data {
-  color: var(--white);
-  font-size: var(--fs-5);
-  font-family: var(--ff-barlow);
-  font-weight: var(--fw-600);
-}
-
-.skills-progress-box {
-  background-color: var(--white);
-  height: 8px;
-  border-radius: var(--radius-10);
-}
-
-.skills-progress {
-  background-color: var(--orange-soda);
-  height: 100%;
-  border-radius: inherit;
-}
-
-
-
-
-
-/*-----------------------------------*\
-  #CONTACT
-\*-----------------------------------*/
-
-.contact-card {
-  background-color: var(--midnight-blue);
-  padding: 50px 25px;
-  border-radius: var(--radius-20);
-}
-
-.contact-card .card-subtitle {
-  color: var(--orange-soda);
-  font-family: var(--ff-barlow);
-  font-size: var(--fs-4);
-  font-weight: var(--fw-600);
-}
-
-.contact .section-title {
-  text-align: left;
-  margin-block-end: 30px;
-}
-
-.contact-form { margin-block-end: 50px; }
-
-.contact-input {
-  background-color: var(--white);
-  color: var(--manatee);
-  border-radius: var(--radius-5);
-  padding: 15px 25px;
-  font-size: var(--fs-5);
-  margin-block-end: 15px;
-}
-
-.contact-input::placeholder { color: inherit; }
-
-textarea.contact-input {
-  resize: vertical;
-  min-height: 100px;
-  height: 180px;
-  max-height: 300px;
-}
-
-.btn-submit {
-  background-color: var(--orange-soda);
-  color: var(--white);
-  font-family: var(--ff-barlow);
-  font-size: var(--fs-5);
-  width: 100%;
-  padding: 10px;
-  border-radius: var(--radius-5);
-  transition: var(--transition-2);
-}
-
-.btn-submit:is(:hover, :focus) {
-  background-color: var(--white);
-  color: var(--black);
-}
-
-.contact-item {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-}
-
-.contact-item:not(:last-child) { margin-block-end: 20px; }
-
-.contact-icon {
-  background-color: var(--glaucous);
-  font-size: 2.4rem;
-  padding: 20px;
-  border-radius: 50%;
-}
-
-.contact-item-title {
-  color: var(--white);
-  font-family: var(--ff-barlow);
-  font-size: var(--fs-4);
-  font-weight: var(--fw-600);
-}
-
-.contact-item-link { transition: var(--transition-1); }
-
-.contact-item-link:not(address):is(:hover, :focus) { color: var(--white); }
-
-
-
-
 
 /*-----------------------------------*\
   #BLOG
 \*-----------------------------------*/
 
-.blog { padding-block-end: 120px; }
+.blog { padding-block-end: 120px; background-image: url("../images/hero-bg.jpg"); }
 
-.blog .section-title { margin-block-end: 20px; }
+ .blog .section-title { margin-block-end: 20px; } 
 
 .blog .section-text { margin-block-end: 80px; }
 
@@ -630,7 +442,7 @@ textarea.contact-input {
 
 .footer {
   background-color: var(--independence);
-  padding-block: 60px;
+  padding-block: 1px;
 }
 
 .copyright {
